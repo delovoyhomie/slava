@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.OneLink:hover {
+    color: #00a8e8;
+    transition: 0.3s;
+    margin-left: 1rem;
+}
+
+.OneLink:hover .OneLinkSvg {
+    fill: #00a8e8;
+}
+
+.not_selected {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.selected {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.not_selected li:hover {
+    color: rgb(255, 255, 255);
+}
+
+.open:hover, .images:hover {
+    background-color: rgba(0,168,232,.25);
+    border-radius: 15px;
+}
+
+.rotate_img{
+    transform: rotate(180deg);
+}
+
+
+:root {
+    color: white;
+    background-color: #050816;
+    /* font-family: "Roboto","Helvetica Neue","Helvetica",sans-serif; */
+}
+
+* {
+    font-family: "Roboto";
+}
+
+h1, h2 {
+    font-family: "Roboto Mono";
+}
