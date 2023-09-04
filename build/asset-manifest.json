@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TEST/static/css/main.5133650c.css",
+    "main.js": "/TEST/static/js/main.e24e2ec6.js",
+    "static/media/start.png": "/TEST/static/media/start.3bef25afb4b4206644f2.png",
+    "static/media/herobg.png": "/TEST/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/hackathon-crew.jpg": "/TEST/static/media/hackathon-crew.ca75eedd39298450e01a.jpg",
+    "static/media/winner-of-hackathon.jpg": "/TEST/static/media/winner-of-hackathon.ba0f0702f8e2489cd13d.jpg",
+    "static/media/ton-docs-2.png": "/TEST/static/media/ton-docs-2.c1ba0221ca9aec48f86e.png",
+    "static/media/ton-docs-1.png": "/TEST/static/media/ton-docs-1.988a1c3d97139da32e9f.png",
+    "static/media/logo.jpg": "/TEST/static/media/logo.a311dd416ff29ed4e330.jpg",
+    "static/media/twitter.svg": "/TEST/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
+    "index.html": "/TEST/index.html",
+    "main.5133650c.css.map": "/TEST/static/css/main.5133650c.css.map",
+    "main.e24e2ec6.js.map": "/TEST/static/js/main.e24e2ec6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5133650c.css",
+    "static/js/main.e24e2ec6.js"
+  ]
+}
