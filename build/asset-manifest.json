@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d1de0d0.css",
-    "main.js": "/static/js/main.f7fc0428.js",
+    "main.js": "/static/js/main.b1f3e335.js",
     "static/media/start.png": "/static/media/start.3bef25afb4b4206644f2.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/hackathon-crew.jpg": "/static/media/hackathon-crew.ca75eedd39298450e01a.jpg",
@@ -12,10 +12,10 @@
     "static/media/twitter.svg": "/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
     "index.html": "/index.html",
     "main.2d1de0d0.css.map": "/static/css/main.2d1de0d0.css.map",
-    "main.f7fc0428.js.map": "/static/js/main.f7fc0428.js.map"
+    "main.b1f3e335.js.map": "/static/js/main.b1f3e335.js.map"
   },
   "entrypoints": [
     "static/css/main.2d1de0d0.css",
-    "static/js/main.f7fc0428.js"
+    "static/js/main.b1f3e335.js"
   ]
 }
