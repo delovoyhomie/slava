@@ -49,7 +49,7 @@ const ActBlock = ({ title, info, imgs, link }) => {
 
 const Activities = () => {
   return (
-    <div className="activities hidden font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20">
+    <div className={`activities font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20 ${window.location.pathname == '/activities' ? "" : "hidden"}`}>
         <h1 className="pl-2">Activities</h1>
         {
             activities.map((i) => (

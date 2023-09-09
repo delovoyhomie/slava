@@ -19,7 +19,7 @@ const SkillBlock = ({ title, info }) => (
 
 const Skills = () => {
   return (
-    <div className="skills hidden grow h-min flex flex-col flex-wrap gap-4 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20">
+    <div className={`skills grow h-min flex flex-col flex-wrap gap-4 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20 ${window.location.pathname === '/skills' ? "" : "hidden"}`}>
       <h1 className="text-[1.3rem] font-semibold text-usual">Hard skills</h1>
       {skills.map((skill) => (
         <SkillBlock title={skill.id} info={skill.info} />

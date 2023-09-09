@@ -12,7 +12,7 @@ const EduBlock = ({ title, data, info }) => (
 
 const Education = () => {
   return (
-    <div className="education hidden font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20">
+    <div className={`education font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20 ${window.location.pathname == '/education' ? "" : "hidden"}`}>
         <h1 className="pl-2">Education</h1>
         {education.map((i) => (
             <EduBlock {...i} />

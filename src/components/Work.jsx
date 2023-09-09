@@ -29,7 +29,7 @@ const SkillCard = ({ info }) => (
 
 const Work = () => {
   return ( // max-h-screen overflow-scroll
-    <div className="work hidden font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20">
+    <div className={`work font-mono grow h-min flex flex-col flex-wrap gap-7 bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start p-4 md:pl-6 pb-20 ${window.location.pathname == '/work' ? "" : "hidden"}`}>
         <h1 className="pl-2">Work Experience</h1>
         {work.map((i) => (
             <WorkBlock {...i} />

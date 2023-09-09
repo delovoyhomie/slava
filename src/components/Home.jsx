@@ -3,7 +3,7 @@ import { home } from "../constants";
 
 const Hero = () => {
   return (
-    <div className="home grow flex flex-col bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start pb-20 h-min">
+    <div className={`home grow flex flex-col bg-need-pattern rounded-[2rem] mr-6 ml-6 items-start pb-20 h-min ${window.location.pathname == '/' ? "" : "hidden"}`}>
         <h1 className="text-[2rem] mt-4 ml-4 mb-1 font-medium font-usual">Hey, I'm <b>Slava</b></h1>
         {home.map((i) => (
             <div>
