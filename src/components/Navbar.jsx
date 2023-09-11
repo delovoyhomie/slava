@@ -2,7 +2,6 @@ import { logo } from "../assets";
 
 const Navbar = () => {
   function Home() {
-    window.history.pushState(null, null, '/');
     document.getElementsByClassName("skills")[0].classList.add("hidden");
     document.getElementsByClassName("work")[0].classList.add("hidden");
     document.getElementsByClassName("education")[0].classList.add("hidden");
@@ -11,7 +10,6 @@ const Navbar = () => {
   };
 
   function Skills() {
-    window.history.pushState(null, null, '/skills');
     document.getElementsByClassName("home")[0].classList.add("hidden");
     document.getElementsByClassName("work")[0].classList.add("hidden");
     document.getElementsByClassName("education")[0].classList.add("hidden");
@@ -20,7 +18,6 @@ const Navbar = () => {
   };
 
   function Work() {
-    window.history.pushState(null, null, '/work');
     document.getElementsByClassName("home")[0].classList.add("hidden");
     document.getElementsByClassName("skills")[0].classList.add("hidden");
     document.getElementsByClassName("education")[0].classList.add("hidden");
@@ -29,7 +26,6 @@ const Navbar = () => {
   };
   
   function Education() {
-    window.history.pushState(null, null, '/education');
     document.getElementsByClassName("home")[0].classList.add("hidden");
     document.getElementsByClassName("work")[0].classList.add("hidden");
     document.getElementsByClassName("skills")[0].classList.add("hidden");
@@ -38,7 +34,6 @@ const Navbar = () => {
   };
 
   function Activities() {
-    window.history.pushState(null, null, '/activities');
     document.getElementsByClassName("home")[0].classList.add("hidden");
     document.getElementsByClassName("work")[0].classList.add("hidden");
     document.getElementsByClassName("education")[0].classList.add("hidden");
