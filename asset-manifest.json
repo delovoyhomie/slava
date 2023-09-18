@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d1de0d0.css",
-    "main.js": "/static/js/main.14532075.js",
+    "main.css": "/static/css/main.0f3b5bbd.css",
+    "main.js": "/static/js/main.3fc80cdf.js",
     "static/media/start.png": "/static/media/start.3bef25afb4b4206644f2.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/hackathon-crew.jpg": "/static/media/hackathon-crew.ca75eedd39298450e01a.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.jpg": "/static/media/logo.a311dd416ff29ed4e330.jpg",
     "static/media/twitter.svg": "/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
     "index.html": "/index.html",
-    "main.2d1de0d0.css.map": "/static/css/main.2d1de0d0.css.map",
-    "main.14532075.js.map": "/static/js/main.14532075.js.map"
+    "main.0f3b5bbd.css.map": "/static/css/main.0f3b5bbd.css.map",
+    "main.3fc80cdf.js.map": "/static/js/main.3fc80cdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d1de0d0.css",
-    "static/js/main.14532075.js"
+    "static/css/main.0f3b5bbd.css",
+    "static/js/main.3fc80cdf.js"
   ]
 }
