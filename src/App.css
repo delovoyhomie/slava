@@ -272,6 +272,10 @@ Correct the cursor style of increment and decrement buttons in Safari.
   height: auto;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /*
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
@@ -552,6 +556,10 @@ video {
 
 .right-2{
   right: 0.5rem;
+}
+
+.right-3{
+  right: 0.75rem;
 }
 
 .order-last{
@@ -1056,6 +1064,10 @@ h1, h2 {
 
   .md\:pl-3{
     padding-left: 0.75rem;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0rem;
   }
 
   .md\:pl-6{

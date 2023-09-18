@@ -51,11 +51,11 @@ const Navbar = () => {
           </div>
       </div>
       <ul className="mt-4 md:text-right flex flex-col gap-4 ml-7 md:ml-0 mb-6 md:mt-auto md:mb-auto font-normal not_selected">
-        <li className="list_nav" onClick={Home}>Home</li>
-        <li className="list_nav" onClick={Skills}>Skills</li>
-        <li className="list_nav" onClick={Work}>Work Experience</li>
-          <li className="list_nav" onClick={Education}>Education</li>
-        <li className="list_nav" onClick={Activities}>Activities</li>
+        <li className="list_nav cursor-pointer" onClick={Home}>Home</li>
+        <li className="list_nav cursor-pointer" onClick={Skills}>Skills</li>
+        <li className="list_nav cursor-pointer" onClick={Work}>Work Experience</li>
+          <li className="list_nav cursor-pointer" onClick={Education}>Education</li>
+        <li className="list_nav cursor-pointer" onClick={Activities}>Activities</li>
       </ul>
     </div>
   );
